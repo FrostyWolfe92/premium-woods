@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+@theme {
+  /* Wood palette — warm, craft-forward */
+  --color-cream: #F7F1E6;
+  --color-oat: #EDE3D0;
+  --color-bone: #FAF6EE;
+  --color-walnut: #2A1A0E;
+  --color-walnut-mid: #4A2E1B;
+  --color-walnut-light: #6B4326;
+  --color-brass: #B8894A;
+  --color-brass-deep: #8C6534;
+  --color-copper: #A8623C;
+  --color-charcoal: #1C1410;
+  --color-ink: #2B201A;
+  --color-muted: #6B5D52;
+  --color-line: #D9CDB8;
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-bone);
+  color: var(--color-ink);
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-feature-settings: "ss01";
+  letter-spacing: -0.02em;
+}
+
+/* Subtle grain texture */
+.grain {
+  position: relative;
+}
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.06;
+  mix-blend-mode: multiply;
+  background-image:
+    repeating-linear-gradient(90deg, rgba(60,30,10,0.5) 0, rgba(60,30,10,0.5) 1px, transparent 1px, transparent 3px),
+    repeating-linear-gradient(0deg, rgba(60,30,10,0.3) 0, rgba(60,30,10,0.3) 1px, transparent 1px, transparent 7px);
+}
+
+/* Hero wood-grain background */
+.wood-bg {
+  background:
+    radial-gradient(ellipse at 30% 20%, rgba(184,137,74,0.18), transparent 55%),
+    radial-gradient(ellipse at 70% 80%, rgba(168,98,60,0.12), transparent 55%),
+    linear-gradient(135deg, #1F140A 0%, #2A1A0E 50%, #3A2615 100%);
+}
+
+.brass-line {
+  background: linear-gradient(90deg, transparent, var(--color-brass), transparent);
+  height: 1px;
+}
+
+.btn-primary {
+  background: var(--color-walnut);
+  color: var(--color-bone);
+  border: 1px solid var(--color-walnut);
+  transition: all .2s ease;
+}
+.btn-primary:hover {
+  background: var(--color-walnut-mid);
+  border-color: var(--color-brass);
+}
+
+.btn-brass {
+  background: var(--color-brass);
+  color: var(--color-walnut);
+  border: 1px solid var(--color-brass);
+  transition: all .2s ease;
+  font-weight: 600;
+}
+.btn-brass:hover {
+  background: var(--color-brass-deep);
+  color: var(--color-bone);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--color-bone);
+  border: 1px solid rgba(247,241,230,0.4);
+  transition: all .2s ease;
+}
+.btn-ghost:hover {
+  border-color: var(--color-brass);
+  color: var(--color-brass);
+}
+
+.eyebrow {
+  font-family: var(--font-body);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--color-brass-deep);
+}
+
+.eyebrow-light {
+  font-family: var(--font-body);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--color-brass);
+}
+
+/* Material swatch SVG-less placeholders */
+.swatch-walnut { background: linear-gradient(135deg, #3D2415 0%, #5A3622 50%, #3D2415 100%); }
+.swatch-maple  { background: linear-gradient(135deg, #E8C99B 0%, #F1DCB5 50%, #D9B280 100%); }
+.swatch-cherry { background: linear-gradient(135deg, #7B3F2A 0%, #9C5238 50%, #7B3F2A 100%); }
+.swatch-oak    { background: linear-gradient(135deg, #B08756 0%, #C9A578 50%, #A87B4A 100%); }
+.swatch-epoxy  { background: linear-gradient(135deg, #1A1A1A 0%, #2D2520 40%, #B8894A 100%); }
+.swatch-laminate { background: linear-gradient(135deg, #C8C2B6 0%, #E5DFD3 50%, #B5AEA0 100%); }
+.swatch-liveedge { background:
+  radial-gradient(ellipse at 40% 50%, #6B4226 0%, #4A2E1B 70%),
+  linear-gradient(135deg, #3D2415, #6B4226); }
+.swatch-quartz { background: linear-gradient(135deg, #E8E4DC 0%, #F2EDE2 50%, #D5CFC2 100%); }
