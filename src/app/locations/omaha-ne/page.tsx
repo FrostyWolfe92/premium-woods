@@ -39,7 +39,7 @@ export default function OmahaPage() {
               "Lead times typically 3-5 weeks for residential, 4-8 for commercial",
             ].map((b) => (
               <div key={b} className="flex items-start gap-2.5">
-                <CheckCircle2 className="w-5 h-5 text-[var(--color-brass-deep)] flex-shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-[var(--color-amber-deep)] flex-shrink-0 mt-0.5" />
                 <span className="text-[var(--color-ink)]">{b}</span>
               </div>
             ))}

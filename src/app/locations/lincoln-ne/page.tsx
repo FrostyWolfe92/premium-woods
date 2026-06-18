@@ -39,7 +39,7 @@ export default function LincolnPage() {
               "Trusted by Lincoln Public Schools and local healthcare facilities",
             ].map((b) => (
               <div key={b} className="flex items-start gap-2.5">
-                <CheckCircle2 className="w-5 h-5 text-[var(--color-brass-deep)] flex-shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-[var(--color-amber-deep)] flex-shrink-0 mt-0.5" />
                 <span className="text-[var(--color-ink)]">{b}</span>
               </div>
             ))}
@@ -50,16 +50,16 @@ export default function LincolnPage() {
           <div className="rounded-xl bg-[var(--color-walnut)] text-[var(--color-bone)] p-7 grain">
             <div className="eyebrow-light">Visit The Shop</div>
             <div className="mt-3 flex items-start gap-3">
-              <MapPin className="w-5 h-5 text-[var(--color-brass)] mt-1" />
+              <MapPin className="w-5 h-5 text-[var(--color-amber)] mt-1" />
               <div>
                 <div className="font-display text-xl font-semibold">2139 Cornhusker Hwy, Suite B</div>
                 <div>Lincoln, NE 68521</div>
                 <div className="mt-3 text-sm text-[var(--color-oat)]/80">{BUSINESS.hours.weekdays}</div>
               </div>
             </div>
-            <div className="mt-6 border-t border-[var(--color-brass)]/30 pt-4">
+            <div className="mt-6 border-t border-[var(--color-amber)]/30 pt-4">
               <div className="eyebrow-light">Phone</div>
-              <a href={BUSINESS.phoneHref} className="font-display text-2xl font-semibold hover:text-[var(--color-brass)]">{BUSINESS.phone}</a>
+              <a href={BUSINESS.phoneHref} className="font-display text-2xl font-semibold hover:text-[var(--color-amber)]">{BUSINESS.phone}</a>
             </div>
           </div>
 

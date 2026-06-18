@@ -31,29 +31,29 @@ export default function Contact() {
           >
             <div className="grid sm:grid-cols-2 gap-4">
               <div>
-                <label className="text-xs uppercase tracking-wider font-semibold text-[var(--color-brass-deep)]">Name</label>
-                <input required type="text" name="name" className="mt-1.5 w-full rounded-md border border-[var(--color-line)] px-4 py-2.5 focus:outline-none focus:border-[var(--color-brass)] bg-[var(--color-bone)]" />
+                <label className="text-xs uppercase tracking-wider font-semibold text-[var(--color-amber-deep)]">Name</label>
+                <input required type="text" name="name" className="mt-1.5 w-full rounded-md border border-[var(--color-line)] px-4 py-2.5 focus:outline-none focus:border-[var(--color-amber)] bg-[var(--color-bone)]" />
               </div>
               <div>
-                <label className="text-xs uppercase tracking-wider font-semibold text-[var(--color-brass-deep)]">Company (optional)</label>
-                <input type="text" name="company" className="mt-1.5 w-full rounded-md border border-[var(--color-line)] px-4 py-2.5 focus:outline-none focus:border-[var(--color-brass)] bg-[var(--color-bone)]" />
+                <label className="text-xs uppercase tracking-wider font-semibold text-[var(--color-amber-deep)]">Company (optional)</label>
+                <input type="text" name="company" className="mt-1.5 w-full rounded-md border border-[var(--color-line)] px-4 py-2.5 focus:outline-none focus:border-[var(--color-amber)] bg-[var(--color-bone)]" />
               </div>
             </div>
 
             <div className="grid sm:grid-cols-2 gap-4">
               <div>
-                <label className="text-xs uppercase tracking-wider font-semibold text-[var(--color-brass-deep)]">Email</label>
-                <input required type="email" name="email" className="mt-1.5 w-full rounded-md border border-[var(--color-line)] px-4 py-2.5 focus:outline-none focus:border-[var(--color-brass)] bg-[var(--color-bone)]" />
+                <label className="text-xs uppercase tracking-wider font-semibold text-[var(--color-amber-deep)]">Email</label>
+                <input required type="email" name="email" className="mt-1.5 w-full rounded-md border border-[var(--color-line)] px-4 py-2.5 focus:outline-none focus:border-[var(--color-amber)] bg-[var(--color-bone)]" />
               </div>
               <div>
-                <label className="text-xs uppercase tracking-wider font-semibold text-[var(--color-brass-deep)]">Phone</label>
-                <input type="tel" name="phone" className="mt-1.5 w-full rounded-md border border-[var(--color-line)] px-4 py-2.5 focus:outline-none focus:border-[var(--color-brass)] bg-[var(--color-bone)]" />
+                <label className="text-xs uppercase tracking-wider font-semibold text-[var(--color-amber-deep)]">Phone</label>
+                <input type="tel" name="phone" className="mt-1.5 w-full rounded-md border border-[var(--color-line)] px-4 py-2.5 focus:outline-none focus:border-[var(--color-amber)] bg-[var(--color-bone)]" />
               </div>
             </div>
 
             <div>
-              <label className="text-xs uppercase tracking-wider font-semibold text-[var(--color-brass-deep)]">Project Type</label>
-              <select name="project" className="mt-1.5 w-full rounded-md border border-[var(--color-line)] px-4 py-2.5 focus:outline-none focus:border-[var(--color-brass)] bg-[var(--color-bone)]">
+              <label className="text-xs uppercase tracking-wider font-semibold text-[var(--color-amber-deep)]">Project Type</label>
+              <select name="project" className="mt-1.5 w-full rounded-md border border-[var(--color-line)] px-4 py-2.5 focus:outline-none focus:border-[var(--color-amber)] bg-[var(--color-bone)]">
                 <option>Butcher block countertop</option>
                 <option>Live edge / slab top</option>
                 <option>Epoxy resin top</option>
@@ -66,26 +66,26 @@ export default function Contact() {
 
             <div className="grid sm:grid-cols-2 gap-4">
               <div>
-                <label className="text-xs uppercase tracking-wider font-semibold text-[var(--color-brass-deep)]">City / Region</label>
-                <input type="text" name="location" placeholder="e.g. Omaha, NE" className="mt-1.5 w-full rounded-md border border-[var(--color-line)] px-4 py-2.5 focus:outline-none focus:border-[var(--color-brass)] bg-[var(--color-bone)]" />
+                <label className="text-xs uppercase tracking-wider font-semibold text-[var(--color-amber-deep)]">City / Region</label>
+                <input type="text" name="location" placeholder="e.g. Omaha, NE" className="mt-1.5 w-full rounded-md border border-[var(--color-line)] px-4 py-2.5 focus:outline-none focus:border-[var(--color-amber)] bg-[var(--color-bone)]" />
               </div>
               <div>
-                <label className="text-xs uppercase tracking-wider font-semibold text-[var(--color-brass-deep)]">Target Date (optional)</label>
-                <input type="text" name="date" placeholder="e.g. End of Q3" className="mt-1.5 w-full rounded-md border border-[var(--color-line)] px-4 py-2.5 focus:outline-none focus:border-[var(--color-brass)] bg-[var(--color-bone)]" />
+                <label className="text-xs uppercase tracking-wider font-semibold text-[var(--color-amber-deep)]">Target Date (optional)</label>
+                <input type="text" name="date" placeholder="e.g. End of Q3" className="mt-1.5 w-full rounded-md border border-[var(--color-line)] px-4 py-2.5 focus:outline-none focus:border-[var(--color-amber)] bg-[var(--color-bone)]" />
               </div>
             </div>
 
             <div>
-              <label className="text-xs uppercase tracking-wider font-semibold text-[var(--color-brass-deep)]">Project Details</label>
-              <textarea required name="details" rows={5} placeholder="Dimensions, material preference, edge profile, finish, any other context. The more you can share, the better the quote." className="mt-1.5 w-full rounded-md border border-[var(--color-line)] px-4 py-2.5 focus:outline-none focus:border-[var(--color-brass)] bg-[var(--color-bone)]" />
+              <label className="text-xs uppercase tracking-wider font-semibold text-[var(--color-amber-deep)]">Project Details</label>
+              <textarea required name="details" rows={5} placeholder="Dimensions, material preference, edge profile, finish, any other context. The more you can share, the better the quote." className="mt-1.5 w-full rounded-md border border-[var(--color-line)] px-4 py-2.5 focus:outline-none focus:border-[var(--color-amber)] bg-[var(--color-bone)]" />
             </div>
 
-            <button type="submit" className="btn-brass rounded-md px-7 py-3.5 text-sm font-semibold inline-flex items-center gap-2">
+            <button type="submit" className="btn-amber rounded-md px-7 py-3.5 text-sm font-semibold inline-flex items-center gap-2">
               Send Quote Request <ArrowRight className="w-4 h-4" />
             </button>
 
             <p className="text-xs text-[var(--color-muted)]">
-              Your email client will open with the details ready to send. Prefer to talk? Call <a className="text-[var(--color-brass-deep)] font-semibold" href={BUSINESS.phoneHref}>{BUSINESS.phone}</a>.
+              Your email client will open with the details ready to send. Prefer to talk? Call <a className="text-[var(--color-amber-deep)] font-semibold" href={BUSINESS.phoneHref}>{BUSINESS.phone}</a>.
             </p>
           </form>
         </div>
@@ -97,28 +97,28 @@ export default function Contact() {
 
             <ul className="mt-6 space-y-4">
               <li className="flex items-start gap-3">
-                <Phone className="w-5 h-5 text-[var(--color-brass)] flex-shrink-0 mt-0.5" />
+                <Phone className="w-5 h-5 text-[var(--color-amber)] flex-shrink-0 mt-0.5" />
                 <div>
                   <div className="text-xs uppercase tracking-wider text-[var(--color-oat)]/70">Phone</div>
-                  <a href={BUSINESS.phoneHref} className="text-lg font-semibold hover:text-[var(--color-brass)]">{BUSINESS.phone}</a>
+                  <a href={BUSINESS.phoneHref} className="text-lg font-semibold hover:text-[var(--color-amber)]">{BUSINESS.phone}</a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <Mail className="w-5 h-5 text-[var(--color-brass)] flex-shrink-0 mt-0.5" />
+                <Mail className="w-5 h-5 text-[var(--color-amber)] flex-shrink-0 mt-0.5" />
                 <div>
                   <div className="text-xs uppercase tracking-wider text-[var(--color-oat)]/70">Email</div>
-                  <a href={BUSINESS.emailHref} className="text-sm hover:text-[var(--color-brass)] break-all">{BUSINESS.email}</a>
+                  <a href={BUSINESS.emailHref} className="text-sm hover:text-[var(--color-amber)] break-all">{BUSINESS.email}</a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-[var(--color-brass)] flex-shrink-0 mt-0.5" />
+                <MapPin className="w-5 h-5 text-[var(--color-amber)] flex-shrink-0 mt-0.5" />
                 <div>
                   <div className="text-xs uppercase tracking-wider text-[var(--color-oat)]/70">Shop</div>
                   <div>{BUSINESS.address.street}<br/>{BUSINESS.address.city}, {BUSINESS.address.region} {BUSINESS.address.postal}</div>
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <Clock className="w-5 h-5 text-[var(--color-brass)] flex-shrink-0 mt-0.5" />
+                <Clock className="w-5 h-5 text-[var(--color-amber)] flex-shrink-0 mt-0.5" />
                 <div>
                   <div className="text-xs uppercase tracking-wider text-[var(--color-oat)]/70">Hours</div>
                   <div>{BUSINESS.hours.weekdays}<br/><span className="text-[var(--color-oat)]/70">{BUSINESS.hours.weekend}</span></div>

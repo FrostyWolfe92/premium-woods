@@ -80,7 +80,7 @@ export default function About() {
               { icon: Truck, label: "We Deliver" },
             ].map((b) => (
               <div key={b.label} className="rounded-lg border border-[var(--color-line)] bg-white p-4 flex items-center gap-3">
-                <b.icon className="w-5 h-5 text-[var(--color-brass-deep)]" />
+                <b.icon className="w-5 h-5 text-[var(--color-amber-deep)]" />
                 <div className="text-sm font-medium text-[var(--color-walnut)]">{b.label}</div>
               </div>
             ))}

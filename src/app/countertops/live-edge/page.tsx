@@ -24,7 +24,7 @@ export default function LiveEdge() {
         <div className="lg:col-span-7">
           <div className="eyebrow">What You Get</div>
           <h2 className="mt-3 font-display text-4xl font-semibold text-[var(--color-walnut)]">
-            A piece that earns the <em className="text-[var(--color-brass-deep)] not-italic">conversation.</em>
+            A piece that earns the <em className="text-[var(--color-amber-deep)] not-italic">conversation.</em>
           </h2>
           <p className="mt-5 text-[var(--color-muted)] text-lg leading-relaxed">
             Live edge isn't a finish — it's a sourcing problem. The wrong slab makes the wrong piece. We walk regional sawyers' yards for ours, and we'll send you photos of the actual slab before we mill it.
@@ -40,7 +40,7 @@ export default function LiveEdge() {
               "Floor-mount or cantilevered base options",
             ].map((b) => (
               <div key={b} className="flex items-start gap-2.5">
-                <CheckCircle2 className="w-5 h-5 text-[var(--color-brass-deep)] flex-shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-[var(--color-amber-deep)] flex-shrink-0 mt-0.5" />
                 <span className="text-[var(--color-ink)]">{b}</span>
               </div>
             ))}

@@ -24,7 +24,7 @@ export default function Epoxy() {
         <div>
           <div className="eyebrow">Build Options</div>
           <h2 className="mt-3 font-display text-4xl font-semibold text-[var(--color-walnut)]">
-            One process. <em className="text-[var(--color-brass-deep)] not-italic">Endless variations.</em>
+            One process. <em className="text-[var(--color-amber-deep)] not-italic">Endless variations.</em>
           </h2>
           <div className="mt-7 space-y-3">
             {[
@@ -36,7 +36,7 @@ export default function Epoxy() {
               "Heat-tolerant clear coat option for bar service",
             ].map((b) => (
               <div key={b} className="flex items-start gap-2.5">
-                <CheckCircle2 className="w-5 h-5 text-[var(--color-brass-deep)] flex-shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-[var(--color-amber-deep)] flex-shrink-0 mt-0.5" />
                 <span className="text-[var(--color-ink)]">{b}</span>
               </div>
             ))}

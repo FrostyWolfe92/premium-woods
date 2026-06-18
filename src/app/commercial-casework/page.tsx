@@ -34,7 +34,7 @@ export default function CommercialCasework() {
           <div className="lg:col-span-7">
             <div className="eyebrow">Sectors We Serve</div>
             <h2 className="mt-3 font-display text-4xl font-semibold text-[var(--color-walnut)]">
-              Six industries. <em className="text-[var(--color-brass-deep)] not-italic">One shop floor.</em>
+              Six industries. <em className="text-[var(--color-amber-deep)] not-italic">One shop floor.</em>
             </h2>
           </div>
           <div className="lg:col-span-5">
@@ -46,8 +46,8 @@ export default function CommercialCasework() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {SECTORS.map((s) => (
-            <div key={s.name} className="rounded-xl border border-[var(--color-line)] bg-white p-6 hover:border-[var(--color-brass)] transition">
-              <div className="w-11 h-11 rounded-lg bg-[var(--color-walnut)] text-[var(--color-brass)] flex items-center justify-center">
+            <div key={s.name} className="rounded-xl border border-[var(--color-line)] bg-white p-6 hover:border-[var(--color-amber)] transition">
+              <div className="w-11 h-11 rounded-lg bg-[var(--color-walnut)] text-[var(--color-amber)] flex items-center justify-center">
                 <s.icon className="w-5 h-5" />
               </div>
               <div className="mt-4 font-display text-xl font-semibold text-[var(--color-walnut)]">{s.name}</div>
@@ -62,7 +62,7 @@ export default function CommercialCasework() {
           <div>
             <div className="eyebrow-light">For GCs & Designers</div>
             <h2 className="mt-3 font-display text-4xl font-semibold leading-tight">
-              The casework sub <em className="text-[var(--color-brass)] not-italic">your schedule needs.</em>
+              The casework sub <em className="text-[var(--color-amber)] not-italic">your schedule needs.</em>
             </h2>
             <p className="mt-5 text-[var(--color-oat)] text-lg leading-relaxed">
               We work directly off your specs and drawings, hold our quoted dates, and don't bring drama to your job-site. If the architect's drawings have a problem, we'll RFI it — not eat the cost and miss the milestone.
@@ -79,7 +79,7 @@ export default function CommercialCasework() {
               "Lincoln, NE-based — short haul to most Midwest job-sites",
             ].map((b) => (
               <div key={b} className="flex items-start gap-2.5">
-                <CheckCircle2 className="w-5 h-5 text-[var(--color-brass)] flex-shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-[var(--color-amber)] flex-shrink-0 mt-0.5" />
                 <span className="text-[var(--color-oat)]">{b}</span>
               </div>
             ))}
@@ -88,7 +88,7 @@ export default function CommercialCasework() {
       </section>
 
       <CTABlock
-        headline={<>Send the drawings. We&apos;ll send a <span className="text-[var(--color-brass)]">real bid.</span></>}
+        headline={<>Send the drawings. We&apos;ll send a <span className="text-[var(--color-amber)]">real bid.</span></>}
         sub="Plans, addenda, RFIs welcome. Direct line to estimating, no portal hoops."
       />
     </>

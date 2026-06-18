@@ -1,4 +1,5 @@
 import { BUSINESS, SITE, SOCIAL } from "@/lib/business";
+import { IMG } from "@/lib/images";
 
 export function LocalBusinessSchema() {
   const data = {
@@ -7,7 +8,7 @@ export function LocalBusinessSchema() {
     "@id": `${SITE.url}/#business`,
     name: BUSINESS.legalName,
     alternateName: BUSINESS.shortName,
-    image: `${SITE.url}/og-image.jpg`,
+    image: IMG.hero,
     logo: `${SITE.url}/logo.png`,
     url: SITE.url,
     telephone: BUSINESS.phoneE164,

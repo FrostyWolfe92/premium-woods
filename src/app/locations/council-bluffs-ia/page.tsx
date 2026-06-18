@@ -39,7 +39,7 @@ export default function CouncilBluffsPage() {
               "Familiar with Western Iowa residential and commercial GCs",
             ].map((b) => (
               <div key={b} className="flex items-start gap-2.5">
-                <CheckCircle2 className="w-5 h-5 text-[var(--color-brass-deep)] flex-shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-[var(--color-amber-deep)] flex-shrink-0 mt-0.5" />
                 <span className="text-[var(--color-ink)]">{b}</span>
               </div>
             ))}

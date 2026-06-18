@@ -24,7 +24,7 @@ export default function Laminate() {
         <div className="lg:col-span-7">
           <div className="eyebrow">Where It Wins</div>
           <h2 className="mt-3 font-display text-4xl font-semibold text-[var(--color-walnut)]">
-            The right answer for <em className="text-[var(--color-brass-deep)] not-italic">working spaces.</em>
+            The right answer for <em className="text-[var(--color-amber-deep)] not-italic">working spaces.</em>
           </h2>
           <p className="mt-5 text-[var(--color-muted)] text-lg leading-relaxed">
             Offices, exam rooms, breakrooms, schools, retail back-of-house, public-sector. Laminate is durable, cleanable, fits any color spec, and we can deliver it weeks faster than stone. We carry the full Wilsonart, Formica, Pionite, and Nevamar lines and can match nearly any finish your designer specs.
@@ -39,7 +39,7 @@ export default function Laminate() {
               "Most jobs delivered in 2-3 weeks",
             ].map((b) => (
               <div key={b} className="flex items-start gap-2.5">
-                <CheckCircle2 className="w-5 h-5 text-[var(--color-brass-deep)] flex-shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-[var(--color-amber-deep)] flex-shrink-0 mt-0.5" />
                 <span className="text-[var(--color-ink)]">{b}</span>
               </div>
             ))}
